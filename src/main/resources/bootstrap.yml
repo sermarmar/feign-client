@@ -1,0 +1,9 @@
+#SPRING
+spring:
+  application:
+    name: microservicio-feign
+  cloud:
+    config:
+      fail-fast: true
+      enabled: true
+      uri: http://user:password@localhost:8888
